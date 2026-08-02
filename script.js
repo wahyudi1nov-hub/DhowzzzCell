@@ -73,7 +73,7 @@ function submitCheckoutDirect() {
     const message = `Halo Dhowz_Cell, saya ingin memesan:\n\n*Produk:* ${currentProductData.name}\n*Penyimpanan:* ${currentProductData.storage}\n*Harga:* Rp ${formattedPrice}\n*Metode Pembayaran:* ${paymentMethod}\n*Nama & Alamat:* ${buyerInfo}\n\nMohon segera diproses ya Kak!`;
 
     const phoneNumber = '6283176585304';
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/message/IL5IBODHJ7DUN1/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
     closeCheckout();
     window.location.href = whatsappUrl;
